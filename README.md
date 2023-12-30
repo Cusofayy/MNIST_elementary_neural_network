@@ -10,15 +10,15 @@ The model is a 3 layer neural network with the followoing architecture:
 
 The activation function is ReLU
 
-#Dropouts
+# Dropouts
 
 Dropout is implemented to the first (0.5) and second (0.2) fully-connected layers
 
 
-#Training strategy:
+# Training strategy:
 
 Combining the early stoping strategy with a high patience and a low min_delta maximizes the accuracy of the model without fallin in the pit of overfitting.
 
-#Results
+# Results
 
 98.21% accuracy for a simple 3 layers neural newtork
