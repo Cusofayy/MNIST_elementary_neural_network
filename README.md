@@ -2,7 +2,7 @@
 An implementation of a neural-newtork for MNIST combined with early stopping and dropouts.
 
 # Architecture of the NN
-The model is a 3 layer neural network with the followoing architecture:
+The model is a three layered neural-network with the followoing architecture:
   + Input layer : 784 nodes (MNIST images size)
   +  First fully-connected layer of 1024 nodes
   +  Second fully-connected layer of 243 nodes
@@ -21,4 +21,4 @@ Combining the early stoping strategy with a high patience and a low min_delta ma
 
 # Results
 
-98.21% accuracy for a simple 3 layers neural newtork
+An accuracy of 98.21% attained by a simple three layered neural-newtork.
